@@ -1,0 +1,25 @@
+{
+  "name": "node_server",
+  "version": "0.1.0",
+  "description": "PropPages node server to call on API's - Rewritten to comply with EMCAscript6",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "http": "^0.0.0",
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholas-c/better-node-server.git"
+  },
+  "author": "Nicholas Carter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholas-c/better-node-server/issues"
+  },
+  "homepage": "https://github.com/nicholas-c/better-node-server#readme"
+}
