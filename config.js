@@ -14,10 +14,10 @@ config.logs = {};
 
 // MySQL config
 config.mysql = {};
-	config.mysql.host = 'db';
-	config.mysql.user = 'root';
-	config.mysql.password = 'edenarcor77&',
-	config.mysql.database = 'orangepages';
+	config.mysql.host = 'localhost';
+	config.mysql.user = '';
+	config.mysql.password = '',
+	config.mysql.database = '';
 
 //IP
 config.ip = '192.168.6.95';
