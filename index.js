@@ -16,13 +16,13 @@
 	class PoGo {
 		constructor(connection) {
 			this.connection = mysql.createPool({
-				connectionLimit	: 5,
-				host			: 'db',
-				user			: 'root',
-				password		: 'edenarcor77&',
-				database 		: 'pogo',
-				debug			: false,
-				insecureAuth 	: true
+				connectionLimit: 5,
+				host: config.mysql.host,
+				user: config.mysql.user,
+				password: config.mysql.pass,
+				database: config.mysql.db,
+				debug: false,
+				insecureAuth: true
 			});
 
 			app.get('/pogo-api', (request, response) => {

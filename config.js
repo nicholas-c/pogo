@@ -16,8 +16,8 @@ config.logs = {};
 config.mysql = {};
 	config.mysql.host = 'localhost';
 	config.mysql.user = '';
-	config.mysql.password = '',
-	config.mysql.database = '';
+	config.mysql.pass = '',
+	config.mysql.db = '';
 
 //IP
 config.ip = '192.168.6.95';
